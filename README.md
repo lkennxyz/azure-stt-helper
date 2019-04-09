@@ -42,7 +42,9 @@ Makes a request to the Azure Speech Service STT REST API, returns the body of th
 
 #### parameters
 * region (required): The azure region for your Speech Services Instance
+
 **MUST USE EITHER TOKEN OR SUBSCRIPTION KEY**
+
 * token (optional): The Bearer token obtained by the getToken function
 * subscriptionKey (optional): The subscription key for your Speech Services Instance
 * language (optional): language used in the recording (defaults to ‘en-US’)
