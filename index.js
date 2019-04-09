@@ -7,7 +7,6 @@ async function getToken({ region, subscriptionKey }) {
     const result = await axios.post(url,{}, {
       headers: {
         'Content-type': 'application/x-www-form-urlencoded',
-        'Content-Length': '0',
         'Ocp-Apim-Subscription-Key': subscriptionKey,
       }
     })
