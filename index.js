@@ -14,6 +14,7 @@ async function getToken({ region, subscriptionKey }) {
     return result.data;
   } catch (err) {
     console.log(err);
+    return err;
   }
 }
 
@@ -31,7 +32,8 @@ async function azureSTT({ region, subscriptionKey = undefined, token = undefined
     const result = await axios.post(url, wav, { headers });
     return result.data;
   } catch (err) {
-    console.log(err)
+    console.log(err);
+    return err;
   }
 }
 
