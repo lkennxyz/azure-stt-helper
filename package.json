@@ -1,6 +1,6 @@
 {
   "name": "@lkennxyz/azure-stt-helper",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A wrapper for Azure Speech Services Speech to Text REST API",
   "main": "index.js",
   "scripts": {
