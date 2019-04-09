@@ -1,6 +1,7 @@
 # azure-STT-helper
 
 ![npm](https://img.shields.io/npm/v/@lkennxyz/azure-stt-helper.svg)
+[![Build Status](https://travis-ci.org/lkennxyz/azure-stt-helper.svg?branch=master)](https://travis-ci.org/lkennxyz/azure-stt-helper)
 
 A simple Javascript wrapper over the Azure Speech Services Speech-To-Text (STT) REST API, because I didn't like the current Microsoft solution.
 Uses [axios](https://www.npmjs.com/package/axios) for the HTTP requests for Frontend & Backend support.
