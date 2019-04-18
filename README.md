@@ -6,6 +6,8 @@
 A simple Javascript wrapper over the Azure Speech Services Speech-To-Text (STT) REST API, because I didn't like the current Microsoft solution.
 Uses [axios](https://www.npmjs.com/package/axios) for the HTTP requests for Frontend & Backend support.
 
+For an example usage see [here](https://github.com/lkennxyz/azure-sst-helper-example).
+
 ## Installing
 
 
